@@ -14,6 +14,7 @@ module.exports = {
     'react-refresh/only-export-components': 'warn',
     "react/jsx-uses-react": "warn",
     "react/jsx-uses-vars": "warn",
+    "react/prop-types": ["ignore"],
     // "react/jsx-key": "disable",
   },
 }
