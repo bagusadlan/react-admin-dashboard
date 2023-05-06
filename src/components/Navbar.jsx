@@ -11,7 +11,7 @@ import { Cart, Chat, Notification, UserProfile } from '.'
 import { useStateContext } from '../contexts/ContextProvider'
 
 const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
-	<TooltipComponent content={title} position="ButtomCenter">
+	<TooltipComponent content={title} position="BottomCenter">
 		<button
 			type="button"
 			onClick={customFunc}
